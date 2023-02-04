@@ -1,0 +1,22 @@
+#Desenvolver o Diagrama de Blocos, teste de mesa, português estruturado e codificação em C++ utilizando as estruturas de repetição Enquanto, Repita e Para
+
+#1-	Mostrar o intervalo de 1 a 50 (de inteiros)
+
+
+#2-	Mostrar os impares entre 10 e 80 o a somatória deles.
+
+
+
+Desenvolver o Diagrama de Blocos, português estruturado, teste de mesa e codificação em C++, escolher a melhor estrutura para a solução dos problemas.
+
+#1-	Solicitar um valor inteiro positivo (consistir) na base decimal e mostrar o binário.
+#2-	Fatorial de um valor informado (consistir para maior que zero e menor que 14)
+#3-	Mostrar se um número é ou não primo (consistir)
+#4-	Mostrar apenas o valorr do termo da posição informada da série de Fibonacci
+#5-	Mostrar a série de RICCI até o termo informado pelo usuário (o termo da série deve ser maior que 3), e calcular a somatória dos termos e mostrar.
+  #->Série RICCI: os dois primeiros termos serão informados pelo usuário e o próximo termo é a soma dos dois anteriores 
+#6-	Mostrar a série de FETUCCINE até o termo informado pelo usuário o termo da série deve ser maior que 3), e calcular a somatória dos termos e mostrar. 
+        	#->A série de FETUCCINE é:  os dois primeiros termos da série são informados pelo usuário, a partir daí, os termos são gerados com a soma ou subtração dos dois termos anteriores, ou seja:
+#- se o termo for ímpar soma-se os anteriores para se obter o próximo,
+#- se o termo for par subtrai-se os anteriores para se obter o próximo.
+
