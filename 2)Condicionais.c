@@ -77,7 +77,8 @@ int main(int argc, char** argv) {
 #a variável A possua o menor valor e a variável C o maior.
   
 ================================================================================================================================
-#8) Receber valores de base e altura de um triângulo e verificar se são valores válidos (positivos maiores que zero). Em caso afirmativo, calcular a área do triângulo.
+#8) Receber valores de base e altura de um triângulo e verificar se são valores válidos (positivos maiores que zero). Em caso 
+#afirmativo, calcular a área do triângulo.
 
 
 ================================================================================================================================
@@ -95,30 +96,67 @@ int main(int argc, char** argv) {
 			#Acima de 601	40%
 	
 #	- mostrar como saída uma mensagem informando o saldo médio e o valor do crédito
+	
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	float saldo=0;
+	
+	cout<<"Saldo Medio: ";
+	cin>>saldo;
+		if(saldo>=0 and saldo<=200)
+		{
+			cout<<"CREDITO: 0%";
+			
+		}else
+		if(saldo>200 and saldo<=400)
+		{
+			cout<<"CREDITO: 20%";
+			
+		}
+		if(saldo>400 and saldo<=600)
+		{
+			cout<<"CREDITO 30%";
+		}
+		if(saldo>600)
+		{
+			cout<<"CREDITO 40%";
+		}
+	
+	return 0;
+}
 ================================================================================================================================
-#11) Escrever um algoritmo que lê um conjunto de 4 valores i, a, b, c, onde i é um valor inteiro e positivo e a, b, c, são quaisquer valores reais e os escreva. A seguir: Se i=1 escrever os três valores a, b, c em ordem crescente. 
-   # Se i=2 escrever os três valores a, b, c em ordem decrescente. 
-    #Se i=3 escrever os três valores a, b, c de forma que o maior entre a, b, c fique dentre os dois. 
+#11) Escrever um algoritmo que lê um conjunto de 4 valores i, a, b, c, onde i é um valor inteiro e positivo e a, b, c, são 
+#quaisquer valores reais e os escreva. A seguir: 
+	#Se i=1 escrever os três valores a, b, c em ordem crescente. 
+   	# Se i=2 escrever os três valores a, b, c em ordem decrescente. 
+    	#Se i=3 escrever os três valores a, b, c de forma que o maior entre a, b, c fique dentre os dois. 
 
 ================================================================================================================================  
-#12) Um vendedor necessita de um algoritmo que calcule o preço total devido por um cliente. O algoritmo deve receber o código de um produto e a quantidade comprada e calcular o preço total, usando a tabela abaixo: 
+#12) Um vendedor necessita de um algoritmo que calcule o preço total devido por um cliente. O algoritmo deve receber o código de 
+#um produto e a quantidade comprada e calcular o preço total, usando a tabela abaixo: 
 
 #Código do produto Preço unitário 
 #1 		R$ 32,00 
 #2 		R$ 45,00 
-#3		  R$ 37,00 
+#3		R$ 37,00 
 #4 		R$ 33,00 
  	
 ================================================================================================================================  
-#13) Escrever um algoritmo que lê um valor em Reais (R$) e calcule qual o menor número possível de notas de 100, 50, 10, 5 e 1 em que o valor lido pode ser decomposto. Escrever o valor lido e a relação de notas necessárias. 
+#13) Escrever um algoritmo que lê um valor em Reais (R$) e calcule qual o menor número possível de notas de 100, 50, 10, 5 e 1 
+#em que o valor lido pode ser decomposto. Escrever o valor lido e a relação de notas necessárias. 
 
 ================================================================================================================================  
-#14) Escrever um algoritmo que lê um conjunto de 4 valores i, a, b, c, onde i é um valor inteiro e positivo e a, b, c, são quaisquer valores reais e os escreva. A seguir: 
+#14) Escrever um algoritmo que lê um conjunto de 4 valores i, a, b, c, onde i é um valor inteiro e positivo e a, b, c, são 
+#quaisquer valores reais e os escreva. A seguir: 
     #Se i=1 escrever os três valores a, b, c em ordem crescente. 
     #Se i=2 escrever os três valores a, b, c em ordem decrescente. 
     #Se i=3 escrever os três valores a, b, c de forma que o maior entre a, b, c fique dentre os dois. 
 
 ================================================================================================================================  
-#15) As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra. 
+#15) As maçãs custam R$ 1,30 cada se forem compradas menos de uma dúzia, e R$ 1,00 se forem compradas pelo menos 12. Escreva um 
+#programa que leia o número de maçãs compradas, calcule e escreva o custo total da compra. 
 
   
