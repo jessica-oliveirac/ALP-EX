@@ -88,9 +88,57 @@ int main(int argc, char** argv) {
 #Além disso, calcule a média geral da turma. Mostre a média de cada aluno e uma mensagem "Aprovado", caso a média seja maior ou 
 #igual a sete, e uma mensagem "Reprovado", caso contrário. Ao final, mostre a média geral.
    
+#include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	float MP=0, n1=0, n2=0, n3=0, MG=0;
+	int cont=0;
+	
+	while(cont<6)
+	{
+		cont=cont+1;
+			cout<<"=======================\n";
+			cout<<cont<<") Primeira nota: ";
+			cin>>n1;
+			cout<<cont<<") Segunda nota: ";
+			cin>>n2;
+			cout<<cont<<") Terceira nota: ";
+			cin>>n3;
+		
+			MP = (n1*2+n2*4+n3*3)/10;
+				if(MP>=7)
+				{
+					cout<<cont<<"Media: "<<MP<<" ===APROVADO===\n";
+				}else
+				cout<<"Media: "<<MP<<" ===REPROVADO===\n";
+
+		MG=MG+MP;
+	}
+	MG=MG/cont;
+	cout<<"***MEDIA GERAL***: "<<MG;	
+	return 0;
+}
 ================================================================================================================================
 #7-Escreva um algoritmo que gere os números de 1000 a 1999 e escreva aqueles que dividido por 11 dão resto igual a 5.
-   
+ #include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	int cont=1000;
+	
+	while (cont<=1999)
+	{
+		if (cont % 11==5)
+		{
+			cout<<cont<<"\n";	
+			}	
+			cont=cont+1;
+	}
+	return 0;
+}  
 ================================================================================================================================  
 #8- Solicitar um número inteiro positivo (consistir), calcular o fatorial e mostrar
    
