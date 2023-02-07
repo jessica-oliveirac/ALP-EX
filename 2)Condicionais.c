@@ -38,8 +38,30 @@ Int main()
    #Raízes -> (-b +-  RAIZ DE DELTA) /2.a
 		 
 =============================================================================================================================
-#2)	Solicitar dois valores inteiros, e mostrá-los na ordem crescente e decrescente.
-  
+#3)Solicitar dois valores inteiros, e mostrá-los na ordem crescente e decrescente.
+  #include <iostream>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+using namespace std;
+int main(int argc, char** argv) {
+	int N1=0, N2=0;
+	
+	cout<<"Digite um n: ";
+	cin>>N1;
+	cout<<"Digite outro n: ";
+	cin>>N2;
+	
+	if (N1>N2)
+	{
+		cout<<N1,"\n";
+		cout<<N2;
+	}else
+	{
+		cout<<N2,"\n";
+		cout<<N1;
+	}
+	return 0;
+}
 ==============================================================================================================================
 #4) Solicitar um valor inteiro positivo (consistir) e mostrar se esse número é par ou não par 
   
